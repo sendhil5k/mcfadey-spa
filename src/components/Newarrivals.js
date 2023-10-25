@@ -25,7 +25,7 @@ export default function Newarrivals() {
                 <tbody>
                     {itemList.map((item, index) => (
                         <tr key={index}>
-                            <td><img src={item.images[`${count}`]} width="20%" /></td>
+                            <td><img src={item.images[`${count}`]} width="20%" alt="" /></td>
                             <td>{item.title}</td>
                             <td>${item.price}</td>
                         </tr>

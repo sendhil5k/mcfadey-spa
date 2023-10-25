@@ -27,18 +27,18 @@ return(
           <p className="price-label"><strong>$225</strong></p>
           <div className="color-panel">
               <p><strong>COLOR</strong> CONCHIGLIA</p>
-              <p><img src={thumb1} />  <img src={thumb2} /></p>
+              <p><img src={thumb1} alt="" />  <img src={thumb2} alt="" /></p>
           </div>
           <div className="size-panel">
               <span><strong>SIZE</strong> L</span>
               <span className="size-guide" onClick={sizeGuid}>SIZE GUIDE</span>
           </div>
           <div className="size-list">
-              <a href="#">XS</a>
-              <a href="#">S</a>
-              <a href="#" className="not-available">M</a>
-              <a href="#">L</a>
-              <a href="#">XXL</a>
+              <button>XS</button>
+              <button>S</button>
+              <button className="not-available">M</button>
+              <button>L</button>
+              <button>XXL</button>
           </div>
           <button className="primery-btn" onClick={addBag}>ADD TO BAG --&gt;</button>
           <p style={{marginBottom:"10px"}}>Get 4 interest-free payments of $196.25 with Klarna LEARN MORE</p>
