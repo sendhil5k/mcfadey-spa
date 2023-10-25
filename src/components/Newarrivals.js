@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 
 export default function Newarrivals() {
     const [itemList, setitemList] = useState([]);
-    const [count, setCount] = useState(0);
+   // const [count, setCount] = useState(0);
     useEffect(function () {
         fetch('https://dummyjson.com/products/')
             .then(res => res.json())
@@ -17,7 +17,7 @@ export default function Newarrivals() {
             <table>
                 <thead>
                     <tr>
-                        <th>Product</th>
+                      {  /*<th>Product</th>*/}
                         <th>Product Name</th>
                         <th>Price</th>
                     </tr>
@@ -25,7 +25,7 @@ export default function Newarrivals() {
                 <tbody>
                     {itemList.map((item, index) => (
                         <tr key={index}>
-                            <td><img src={item.images[`${count}`]} width="20%" alt="" /></td>
+                            {/*<td><img src={item.images[`${count}`]} width="20%" alt="" /></td>*/}
                             <td>{item.title}</td>
                             <td>${item.price}</td>
                         </tr>
