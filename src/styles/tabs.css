@@ -1,0 +1,16 @@
+.tabs{margin-bottom:10px;}
+.tabs button:disabled{
+    font-weight: bold;
+    background: transparent;
+    border: 0px;
+    color: #000;
+}
+.tabs button{
+    
+    background: transparent;
+    border: 0px;
+    color: #000;    
+    padding-right: 9%;
+    text-align: left;
+}
+.editor-note,.tab-designer{margin-top:15px}
