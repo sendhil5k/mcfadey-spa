@@ -34,11 +34,11 @@ return(
               <span className="size-guide" onClick={sizeGuid}>SIZE GUIDE</span>
           </div>
           <div className="size-list">
-              <a href="#">XS</a>
-              <a href="#">S</a>
-              <a href="#" className="not-available">M</a>
-              <a href="#">L</a>
-              <a href="#">XXL</a>
+              <button>XS</button>
+              <button>S</button>
+              <button className="not-available">M</button>
+              <button>L</button>
+              <button>XXL</button>
           </div>
           <button className="primery-btn" onClick={addBag}>ADD TO BAG --&gt;</button>
           <p style={{marginBottom:"10px"}}>Get 4 interest-free payments of $196.25 with Klarna LEARN MORE</p>
