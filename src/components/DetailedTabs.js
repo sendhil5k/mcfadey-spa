@@ -57,12 +57,13 @@ const Tabs = () => {
         alert("designerLink clicked")
     }
 // sticky 
+/*
 const sizeGuid=()=>{
     alert("sizeGuid");
 }
 const addBag=()=>{
     alert("addBag clicked");
-}
+}*/
 
 const [fix, setFix] = useState(false);
 function setFixedSidebar(){

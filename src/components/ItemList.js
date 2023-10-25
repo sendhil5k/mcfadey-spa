@@ -27,7 +27,7 @@ return(
           <p className="price-label"><strong>$225</strong></p>
           <div className="color-panel">
               <p><strong>COLOR</strong> CONCHIGLIA</p>
-              <p><img src={thumb1} />  <img src={thumb2} /></p>
+              <p><img src={thumb1} alt="" />  <img src={thumb2} alt="" /></p>
           </div>
           <div className="size-panel">
               <span><strong>SIZE</strong> L</span>
